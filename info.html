@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - H.Mufruk Kasim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #007bff;
+        }
+
+        .header h1 {
+            margin: 1rem 0 0.5rem;
+            color: #007bff;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .info .card {
+            flex: 1 1 calc(50% - 1rem);
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .info .card h3 {
+            margin-bottom: 0.5rem;
+            color: #007bff;
+            font-size: 1.1rem;
+        }
+
+        .info .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            background: #007bff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact a:hover {
+            background: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .info .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imghippo.com/files/Kd7972nA.jpeg" alt="H.Mufruk Kasim">
+            <h1>H.Mufruk Kasim</h1>
+            <p>Data Administrator | Spectrum Cube Company, U.A.E</p>
+        </div>
+
+        <div class="info">
+            <div class="card">
+                <h3>Personal Information</h3>
+                <p><strong>Date of Birth:</strong> 03-09-1997</p>
+                <p><strong>Religion:</strong> Muslim</p>
+                <p><strong>Address:</strong> 2/530 North Street, Vedhalai, Ramanathapuram (Dt) - 623519</p>
+            </div>
+            <div class="card">
+                <h3>Education</h3>
+                <p><strong>Degree:</strong> Master of Computer Application (MCA)</p>
+                <p><strong>College:</strong> SNS College of Technology, Coimbatore</p>
+            </div>
+            <div class="card">
+                <h3>Family Details</h3>
+                <p><strong>Father:</strong> Haji.Ms.Hidhayathulla Aalim (Own Business)</p>
+                <p><strong>Mother:</strong> Thaha Banu (Home Maker)</p>
+                <p><strong>Siblings:</strong> Sister (Married), Brother (Saudi Arabia)</p>
+            </div>
+            <div class="card">
+                <h3>Contact</h3>
+                <p><strong>Phone:</strong> +91 95668 90122</p>
+                <p><strong>Email:</strong> example@email.com</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <a href="mailto:example@email.com">Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>
